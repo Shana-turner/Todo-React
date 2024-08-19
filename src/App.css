@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.new-item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: aliceblue;
+  width: 40vw;
+  height: 15vh;
+  border-radius: 10px;
+  justify-content:flex-start;
+  color: black;
+  padding: 60px;
+
+}
+
+.btn {
+  background-color:cornflowerblue;
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+.item-label{
+  font-weight: bold;
+}
+.item-input{
+  padding: 5px;
+}
+.item-form{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 40px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: aliceblue;
+  color: black;
+  width: 40vw;
+  border-radius: 10px;
+  padding: 60px;
+}
+.list li{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: space-between;
+}
+.list label{
+  font-size: 18px;
+}
+.btn-delete{
+  padding: 5px 10px;
+  background-color: rgba(255, 0, 0, 0.248);
+  color: red;
+  border-radius: 5px;
+  border: 1px solid red;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
