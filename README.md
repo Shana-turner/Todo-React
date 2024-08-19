@@ -1,4 +1,4 @@
-##It's Todo List project with react
+## It's Todo List project with react
 
 ## Available Scripts
 
